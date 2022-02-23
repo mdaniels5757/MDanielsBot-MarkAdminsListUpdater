@@ -54,7 +54,7 @@ def sortkeys(key: str) -> str:
         "arbcom": "ARB",
         "bureaucrat": "B",
         "checkuser": "CU",
-        "oversight": "CV",
+        "suppress": "CV",
         "interface-admin": "IA",
         "abusefilter": "EFM",
         "abusefilter-helper": "EFH",
@@ -81,7 +81,7 @@ combinedJsonDataPage = pywikibot.Page(site, "User:MDanielsBot/markAdmins-Data.js
 
 localGroups = ["abusefilter", "abusefilter-helper", "accountcreator",
                "bureaucrat", "checkuser", "extendedmover", "filemover",
-               "interface-admin", "massmessage-sender", "oversight",
+               "interface-admin", "massmessage-sender", "suppress",
                "sysop", "templateeditor"]
 extraLocalGroups = ["autoreviewer", "patroller", "reviewer", "rollbacker"]
 globalGroups = ["otrs-member", "steward", "global-rollbacker"]
